@@ -35,7 +35,7 @@ parcial-vpn
 
 1. Clonar el repositorio:
 
-git clone <[text](https://github.com/VictorZapata0612/parcial-expressvpn)>
+git clone <[Click aqui](https://github.com/VictorZapata0612/parcial-expressvpn)>
 
 
 2. Abrir el archivo `index.html` en el navegador.
