@@ -1,0 +1,158 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background:#f4f4f2;
+color:#0b2c3d;
+line-height:1.6;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 80px;
+background:#f4f4f2;
+}
+
+.logo img{
+height:32px;
+}
+
+.language{
+font-size:14px;
+color:#0b2c3d;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+}
+
+.hero-text{
+max-width:500px;
+}
+
+.hero-text h1{
+font-size:72px;
+font-weight:700;
+margin-bottom:40px;
+color:#0b2c3d;
+}
+
+.hero-image img{
+width:500px;
+}
+
+
+/* BUTTON */
+
+.btn-primary{
+background:#1e7f5c;
+color:white;
+border:none;
+padding:16px 32px;
+border-radius:30px;
+font-size:16px;
+cursor:pointer;
+}
+
+.btn-primary:hover{
+background:#17684a;
+}
+
+
+/* WHY SECTION */
+
+.why{
+text-align:center;
+margin:120px 0 80px 0;
+}
+
+.why h2{
+font-size:42px;
+}
+
+
+/* FEATURES */
+
+.feature{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+gap:60px;
+}
+
+.feature-text{
+max-width:450px;
+}
+
+.feature-text h3{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.feature-text p{
+margin-bottom:30px;
+color:#444;
+}
+
+.feature-image img{
+width:350px;
+}
+
+
+/* MEDIA LOGOS */
+
+.media{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+gap:60px;
+padding:80px;
+background:#f0efec;
+}
+
+.media img{
+height:40px;
+opacity:0.7;
+}
+
+
+/* FOOTER */
+
+.footer{
+background:#062433;
+color:white;
+padding:40px 80px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.footer-links{
+display:flex;
+gap:25px;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
